@@ -4,9 +4,19 @@
     .collap-nav {
         margin-left: 100px;
     }
+
     .one,
     .footer {
         width: 141%;
+    }
+    .heading {
+        margin: 50px 0 0 0;
+        text-align: center;
+    }
+    .heading h1 {
+        width: 100%;
+        text-align: center;
+        padding: 0 40px;
     }
 
     .heading p {
@@ -14,7 +24,6 @@
     }
 
     .carousel {
-        width: 80%;
         margin: 100px auto;
         width: 80%;
     }
@@ -25,6 +34,7 @@
 
     .one {
         margin-bottom: 50px;
+        height: 160vh;
     }
 
     /* SECTION TWO SERVICES */
@@ -45,36 +55,206 @@
         margin: 100px 0;
         height: 180vh;
     }
-
+    
     .about-img-container {
         margin-left: 0px;
     }
-
+    .about-us {
+        padding: 100px 0 0 0;
+        text-align: center;
+    }
     .about-us p {
         margin: 20px 30px;
         text-align: justify;
     }
-
     .abimg1 {
-        margin-left: 30px;
+        width: 70%;
+        margin: auto;
     }
-
     .abimg2 {
-        margin: -100px;
+        left: 250px;
+        top: 300px;
+        width: 40%;
     }
 
     /* SECTION FIVE BLOG  */
     #five {
         margin-left: 0;
         margin-top: 50PX;
-        height: 200vh;
+        height: 180vh;
     }
 
     .text-comment {
-        margin-top: 8vh;
+        margin-top: 0;
     }
 
     .card-group .card {
         margin-bottom: 50px;
     }
+    /* SECTION SIX FORMS  */
+    #formflex input {
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    #formflex textarea {
+        margin: 10px auto;
+        width: 80%;
+    }
+    .btnsend {
+        width: 40%;
+        margin: 20px auto;
+        display: block;
+    }
+    .text-comment p {
+        width: 85%;
+        text-align: justify;
+        margin: 0 auto;
+    }
+    /* FOOTER  */
+    .details {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-icon {
+        margin: 30px 0;
+        text-align: center;
+    }
+    .footer {
+        background-color: #1b0042;
+        height: 70vh;
+    }
+    .socials {
+        margin-top: 30px;
+    }
+}
+
+/* LARGE MOBILE SCREEN  */
+
+@media (min-width:322px) and (max-width:425px) {
+
+    /* ALL SECTIONS WIDTH  */
+    .one,
+    .footer {
+        width: 117%;
+    }
+    #two,
+    #three,
+    #five,
+    #six,
+    #cpy {
+        width: 117%;
+    }
+
+    /* SECTON ONE HEADER  */
+    .one {
+        margin-bottom: 80px;
+        height: 170vh;
+    }
+    .heading {
+        margin: 50px 0 0 0;
+        text-align: center;
+    }
+    .heading h1 {
+        width: 100%;
+        text-align: center;
+        padding: 0 40px;
+    }
+    .heading p {
+        text-align: justify;
+        padding: 0 20px;
+    }
+    /* carousel  */
+    .carousel {
+        margin: 100px auto;
+        width: 85%;
+    }
+    #btnSg {
+        top: 300px;
+    }
+
+    /* SECTION TWO OUR SERVICES  */
+    .btnReadMore {
+        margin: 0 0 100px 0;
+    }
+    /* SECTION THREE ABOUT US */
+    #three {
+        margin: 0 0;
+        height: 180vh;
+        background-color: rgb(240, 240, 255);
+    }
+    .about-us {
+        padding: 150px 0 0 0;
+        text-align: center;
+    }
+    .abimg1 {
+        width: 70%;
+        margin: auto;
+    }
+    .abimg2 {
+        left: 250px;
+        top: 300px;
+        width: 40%;
+    }
+
+    /* SECTION FIVE BLOG  */
+    #five {
+        margin: 100px 0 50px 0;
+        height: 180vh;
+    }
+
+    .bcards {
+        margin: 50px 50px;
+    }
+
+    /* SECTION SIX FORMS  */
+    .blog-heading {
+        margin: 100px 0 50px 0;
+    }
+
+    #formflex input {
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    #formflex textarea {
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    .btnsend {
+        width: 40%;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .text-comment {
+        margin-top: 0;
+    }
+
+    .text-comment p {
+        width: 85%;
+        text-align: justify;
+        margin: 0 auto;
+    }
+        /* FOOTER  */
+        .details {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .social-icon {
+            margin: 30px 0;
+            text-align: center;
+        }
+        .footer {
+            background-color: #1b0042;
+            height: 70vh;
+        }
+        .socials {
+            margin-top: 30px;
+        }
 }
