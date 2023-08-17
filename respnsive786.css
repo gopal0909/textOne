@@ -4,27 +4,22 @@
         background-color: #d8cee7;
         height: 200vh;
     }
-
     .navbar-nav li a {
         width: 50%;
         text-align: center;
         float: right;
     }
-
     #three {
         margin: 200px 0;
         height: 200vh;
         background-color: rgb(240, 240, 255);
     }
-
     .btnsend {
         width: 30%;
     }
-
     .carousel {
         margin-top: 100px;
     }
-
     .carousel {
         margin-top: 100px;
         width: 80%;
@@ -113,9 +108,7 @@
     margin: -3rem;
     width: 40%;
 }
-}
-
 .about-img-container {
     margin-left: 70px;
 }
-
+}
