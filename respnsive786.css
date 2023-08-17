@@ -89,8 +89,6 @@
         margin: 50px 0 0 0;
         text-align: center;
     }
-}
-
 .heading h1 {
     width: 100%;
     text-align: center;
@@ -114,6 +112,7 @@
 .abimg2 {
     margin: -3rem;
     width: 40%;
+}
 }
 
 .about-img-container {
