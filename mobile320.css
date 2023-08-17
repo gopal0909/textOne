@@ -4,7 +4,9 @@
     .collap-nav {
         margin-left: 100px;
     }
-
+    .navbar {
+        margin-bottom: 0px;
+    }
     .one,
     .footer {
         width: 141%;
@@ -34,7 +36,7 @@
 
     .one {
         margin-bottom: 50px;
-        height: 160vh;
+        height: 200vh;
     }
 
     /* SECTION TWO SERVICES */
@@ -147,11 +149,16 @@
     #cpy {
         width: 117%;
     }
-
     /* SECTON ONE HEADER  */
     .one {
         margin-bottom: 80px;
-        height: 170vh;
+        height: 230vh;
+    }
+    .collap-nav {
+        margin-left: 250px;
+    }
+    .navbar {
+        margin-bottom: 0px;
     }
     .heading {
         margin: 50px 0 0 0;
