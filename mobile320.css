@@ -1,5 +1,11 @@
 @media (max-width:320px) {
-    .one,.footer{
+
+    /* SECTION ONE  */
+    .collap-nav {
+        margin-left: 100px;
+    }
+    .one,
+    .footer {
         width: 141%;
     }
 
@@ -23,7 +29,10 @@
 
     /* SECTION TWO SERVICES */
     #two,
-    #three,#five,#six,#cpy{
+    #three,
+    #five,
+    #six,
+    #cpy {
         width: 141%;
     }
 
@@ -53,13 +62,19 @@
     .abimg2 {
         margin: -100px;
     }
- /* SECTION FIVE BLOG  */
- #five {
-    margin-left: 0;
-    margin-top: 50PX;
-    height: 200vh;
- }
- .text-comment {
-    margin-top: 8vh;
-}
+
+    /* SECTION FIVE BLOG  */
+    #five {
+        margin-left: 0;
+        margin-top: 50PX;
+        height: 200vh;
+    }
+
+    .text-comment {
+        margin-top: 8vh;
+    }
+
+    .card-group .card {
+        margin-bottom: 50px;
+    }
 }
