@@ -1,0 +1,45 @@
+@media (max-width:320px) {
+    .one {
+        width: 141%;
+    }
+
+    .heading p {
+        text-align: justify;
+    }
+
+    .carousel {
+        width: 80%;
+        margin: 100px auto;
+        width: 80%;
+    }
+
+    #btnSg {
+        top: 250px;
+    }
+
+    .one {
+        margin-bottom: 50px;
+    }
+
+    /* SECTION TWO SERVICES */
+    #two,#three{
+        width: 141%;
+    }
+
+    .btnReadMore {
+        margin: 0;
+    }
+
+    /* SECTION THREE ABOUT US */
+    #three {
+        margin: 100px 0;
+    }
+    .about-us p {
+        margin: 20px 30px;
+        text-align: justify;
+    }
+    .abimg2 {
+        margin: -110px;
+        /* width: 40%; */
+    }
+}
