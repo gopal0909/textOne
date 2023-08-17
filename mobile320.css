@@ -1,5 +1,5 @@
 @media (max-width:320px) {
-    .one {
+    .one,.footer{
         width: 141%;
     }
 
@@ -22,7 +22,8 @@
     }
 
     /* SECTION TWO SERVICES */
-    #two,#three{
+    #two,
+    #three,#five,#six,#cpy{
         width: 141%;
     }
 
@@ -33,13 +34,29 @@
     /* SECTION THREE ABOUT US */
     #three {
         margin: 100px 0;
+        height: 180vh;
     }
+
+    .about-img-container {
+        margin-left: 0px;
+    }
+
     .about-us p {
         margin: 20px 30px;
         text-align: justify;
     }
-    .abimg2 {
-        margin: -110px;
-        /* width: 40%; */
+
+    .abimg1 {
+        margin-left: 30px;
     }
+
+    .abimg2 {
+        margin: -100px;
+    }
+ /* SECTION FIVE BLOG  */
+ #five {
+    margin-left: 0;
+    margin-top: 50PX;
+    height: 200vh;
+ }
 }
