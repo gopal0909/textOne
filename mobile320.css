@@ -1,534 +1,368 @@
-@media (max-width:320px) {
-
-    /* SECTION ONE  */
-    .one {
-        margin-bottom: 50px;
-        height: 200vh;
-    }
-
-    .one,
-    .footer {
-        width: 141%;
-    }
-
-    .collap-nav {
-        width: 20%;
-        margin: 0px 100px;
-    }
-
-    .navbar {
-        margin-bottom: 0px;
-    }
-
-    .heading {
-        margin: 50px 0 0 0;
-        text-align: center;
-    }
-
-    .heading h1 {
-        width: 100%;
-        text-align: center;
-        padding: 0 40px;
-    }
-
-    .heading p {
-        text-align: justify;
-    }
-
-    .carousel {
-        margin: 100px auto;
-        width: 80%;
-    }
-
-    #btnSg {
-        top: 250px;
-    }
-
-
-    /* SECTION TWO SERVICES */
-    #two,
-    #three,
-    #five,
-    #six,
-    #cpy {
-        width: 141%;
-    }
-
-    .btnReadMore {
-        margin: 0;
-    }
-
-    /* SECTION THREE ABOUT US */
-    #three {
-        margin: 100px 0;
-        height: 160vh;
-    }
-
-    .about-img-container {
-        margin-left: 0px;
-    }
-
-    .about-us {
-        padding: 100px 0 0 0;
-        text-align: center;
-    }
-
-    .about-us p {
-        margin: 20px 30px;
-        text-align: justify;
-    }
-
-    .abimg1 {
-        width: 70%;
-        margin: auto;
-    }
-
-    .abimg2 {
-        left: 250px;
-        top: 240px;
-        width: 40%;
-    }
-
-    /* SECTION FIVE BLOG  */
-    #five {
-        margin-left: 0;
-        margin-top: 50PX;
-        height: 180vh;
-    }
-
-    .text-comment {
-        margin-top: 0;
-    }
-
-    .card-group .card {
-        margin-bottom: 50px;
-    }
-
-    /* SECTION SIX FORMS  */
-    #formflex input {
-        margin: 10px auto;
-        width: 80%;
-    }
-
-    #formflex textarea {
-        margin: 10px auto;
-        width: 80%;
-    }
-
-    .btnsend {
-        width: 40%;
-        margin: 20px auto;
-        display: block;
-    }
-
-    .text-comment p {
-        width: 85%;
-        text-align: justify;
-        margin: 0 auto;
-    }
-
-    /* FOOTER  */
-    .details {
-        margin-top: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .social-icon {
-        margin: 30px 0;
-        text-align: center;
-    }
-
-    .footer {
-        background-color: #1b0042;
-        height: 70vh;
-    }
-
-    .socials {
-        margin-top: 30px;
-    }
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* SECTION ONE  */
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.one {
+    margin-bottom: 200px;
+    background-color: #d8cee7;
+    height: 80vh;
 }
 
-/* LARGE MOBILE SCREEN  */
-
-@media (min-width:322px) and (max-width:425px) {
-
-    /* ALL SECTIONS WIDTH  */
-    .one,
-    .footer {
-        width: 117%;
-    }
-
-    #two,
-    #three,
-    #five,
-    #six,
-    #cpy {
-        width: 117%;
-    }
-
-    /* SECTON ONE HEADER  */
-    .one {
-        margin-bottom: 80px;
-        height: 230vh;
-    }
-
-    .collap-nav {
-        width: 20%;
-        margin: 0px 100px;
-    }
-
-    .navbar {
-        margin-bottom: 0px;
-    }
-
-    .heading {
-        margin: 50px 0 0 0;
-        text-align: center;
-    }
-
-    .heading h1 {
-        width: 100%;
-        text-align: center;
-        padding: 0 40px;
-    }
-
-    .heading p {
-        text-align: justify;
-        padding: 0 20px;
-    }
-
-    /* carousel  */
-    .carousel {
-        margin: 100px auto;
-        width: 85%;
-    }
-
-    #btnSg {
-        top: 300px;
-    }
-
-    /* SECTION TWO OUR SERVICES  */
-    .btnReadMore {
-        margin: 0 0 100px 0;
-    }
-
-    /* SECTION THREE ABOUT US */
-    #three {
-        margin: 0 0;
-        height: 180vh;
-        background-color: rgb(240, 240, 255);
-    }
-
-    .about-us {
-        padding: 150px 0 0 0;
-        text-align: center;
-    }
-
-    .abimg1 {
-        width: 70%;
-        margin: auto;
-    }
-
-    .abimg2 {
-        left: 250px;
-        top: 300px;
-        width: 40%;
-    }
-
-    /* SECTION FIVE BLOG  */
-    #five {
-        margin: 100px 0 50px 0;
-        height: 180vh;
-    }
-
-    .bcards {
-        margin: 50px 50px;
-    }
-
-    /* SECTION SIX FORMS  */
-    .blog-heading {
-        margin: 100px 0 50px 0;
-    }
-
-    #formflex input {
-        margin: 10px auto;
-        width: 80%;
-    }
-
-    #formflex textarea {
-        margin: 10px auto;
-        width: 80%;
-    }
-
-    .btnsend {
-        width: 40%;
-        margin: 20px auto;
-        display: block;
-    }
-
-    .text-comment {
-        margin-top: 0;
-    }
-
-    .text-comment p {
-        width: 85%;
-        text-align: justify;
-        margin: 0 auto;
-    }
-
-    /* FOOTER  */
-    .details {
-        margin-top: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .social-icon {
-        margin: 30px 0;
-        text-align: center;
-    }
-
-    .footer {
-        background-color: #1b0042;
-        height: 70vh;
-    }
-
-    .socials {
-        margin-top: 30px;
-    }
+.navbar {
+    margin: 0 30px;
+    margin-bottom: 20px;
 }
 
-@media(width:414px) {
-    #three {
-        height: 120vh;
-    }
-
-    #btnSg {
-        top: 280px;
-    }
-
-    .one {
-        height: 140vh;
-    }
-
-    #five {
-        height: 120vh;
-    }
+.navbar-nav {
+    margin-right: 50px;
 }
 
-@media(width:390px) {
-    .one {
-        height: 140vh;
-    }
-
-    #btnSg {
-        top: 270px;
-    }
-
-    #three {
-        height: 130vh;
-    }
-
-    #five {
-        height: 130vh;
-    }
-
-    .abimg2 {
-        top: 250px;
-    }
+.collap-nav {
+    margin-left: 300px;
 }
 
-@media(width:375px) {
-    .one {
-        height: 180vh;
-    }
-
-    #btnSg {
-        top: 250px;
-    }
-
-    #three {
-        height: 160vh;
-    }
-
-    #five {
-        height: 150vh;
-    }
-
-    .abimg2 {
-        left: 220px;
-        top: 280px;
-    }
+.navbar-nav li a {
+    margin: 5px 20px;
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 7px 0;
 }
 
-/* IPAD SCREEN  */
-@media(width:768px) {
-
-    /* SECTION ONE  */
-    .one {
-        height: 200vh;
-    }
-
-    .heading h1 {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .heading p {
-        width: 80%;
-        margin: 50px auto;
-    }
-
-    .btnContact {
-        width: 50%;
-        margin: 20px auto;
-        display: block;
-    }
-
-    /* carousel  */
-    .carousel {
-        width: 70%;
-        margin: 50px auto;
-    }
-
-    #btnSg {
-        top: 350px;
-    }
-
-    /* SECTION THREE ABOUT US  */
-    #three {
-        height: 200vh;
-    }
-
-    .about-us {
-        padding: 100px 50px 0 50px;
-    }
-
-    .about-us h1 {
-        text-align: center;
-    }
-
-    .about-us p {
-        padding: 0 30px;
-        text-align: justify;
-    }
-
-    .btnThree {
-        display: block;
-        width: 40%;
-        margin: 50px auto;
-    }
-
-    .abimg2 {
-        left: 400px;
-        top: 300px;
-    }
-
-    /* SECTION SIX FORMS  */
-    #formflex input {
-        margin: 10px auto;
-        width: 80%;
-    }
-
-    #formflex textarea {
-        margin: 10px auto;
-        width: 80%;
-    }
-
-    .btnsend {
-        width: 40%;
-        margin: 20px auto;
-        display: block;
-    }
-
-    .text-comment {
-        margin-top: 2vh;
-    }
-
-    .text-comment p {
-        width: 80%;
-        font-size: 12px;
-        text-align: justify;
-        margin: 0 auto;
-        padding: 20px;
-    }
-
-    /* FOOTER SECTION  */
-    .details h3 {
-        font-size: 12px;
-    }
-
-    .details span {
-        margin-right: 5px;
-    }
-
-    .details h3 img {
-        width: 15px;
-    }
-
-    .social-icon {
-        margin: 20px auto;
-        width: 30%;
-    }
+.navbar-nav li a:hover {
+    border-radius: 25px;
+    color: white;
+    background-color: #4b208c;
+    border: none;
 }
 
-/* LAPTOP SCREEN  */
-@media(width:1024px) {
+.home-active {
+    border-radius: 25px;
+    color: white;
+    background-color: #4b208c;
+    border: none;
+}
 
-    .one,
-    .footer {
-        width: 128%;
-    }
+.navbar-brand span {
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #4b208c;
+}
 
-    /* SECTION TWO SERVICES */
-    #two,
-    #three,
-    #five,
-    #six,
-    #cpy {
-        width: 128%;
-    }
 
-    .one {
-        margin-bottom: 50px;
-        height: 100vh;
-    }
+/* CAROUSEL  */
+.carousel-inner {
+    border-radius: 500px;
+    border: 8px solid #4b208c;
+    position: relative;
+}
 
-    #btnSg {
-        top: 340px;
-    }
+.heading {
+    margin: 50px 0 0 0;
+}
 
-    /* SECTION TWO OUR SERVICES */
-    .card-box {
-        width: 50%;
-    }
+.heading h1 {
+    font-weight: 700;
+    width: 40%;
+}
 
-    .active-boxShadow-1024 {
-        border-top: 10px solid #4b208c;
-    }
-    .btnReadMore{
-        margin-top: 0;
-    }
+.heading p {
+    margin: 40px 0;
+    font-size: 18px;
+}
 
-    /* SECTION THREE ABOUT US */
-    #three {
-        height: 120vh;
-    }
+.btnContact {
+    padding: 10px 0;
+    color: white;
+    background-color: #4b208c;
+    font-size: 20px;
+    width: 35%;
+    border: 1px solid transparent;
+    border-radius: 40px;
+}
 
-    /* SECTION five BLOG */
-    #five {
-        height: 110vh
-    }
+.btnContact:hover {
+    background-color: #6736b1;
+    border: 1px solid black;
 
-    /* SECTION SIX FORMS  */
-    #six {
-        height: 110vh;
-    }
+}
+/* CAROUSEL BTN  */
+.carousel-control-next{
+    opacity: 1;
+    padding: 20px;
 
-    .form h1 {
-        text-align: left;
-    }
+}
+#btnSg {
+    position: absolute;
+    background-color: rgb(54, 0, 202);
+    height: 40px;
+    top: 400px;
+    right: 50px;
+    border-radius: 25px;
+    width: 40px;
+}
+
+/* section two */
+.contain {
+    text-align: center;
+}
+
+.cad-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contain h1 {
+    font-weight: 700;
+}
+
+.card-box {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.card-box h4 {
+    margin: 20px 0;
+    font-weight: bold;
+    color: rgb(0, 0, 78);
+}
+
+.card-box p {
+    margin: 20px 0;
+}
+
+.card-box img {
+    width: 30%;
+}
+
+.boxShadow {
+    padding: 30px;
+    border-top: 10px solid transparent;
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.75);
+}
+
+.boxShadow:hover {
+    border-top: 10px solid #4b208c;
+}
+
+.active-boxShadow {
+    border-top: 10px solid #4b208c;
+}
+
+.btnReadMore {
+    margin: 50px 0;
+    padding: 8px 30PX;
+    color: white;
+    background-color: #4b208c;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+}
+.btnReadMore:hover {
+    background-color: #6735b3;
+}
+
+/* SECTION 3 ABOUT US */
+#three {
+    margin: 100px 0;
+    height: 100vh;
+    background-color: rgb(240, 240, 255);
+}
+
+.about-us {
+    padding: 150px 100px 0 0;
+}
+
+.about-us h1 {
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+.about-us p {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.btnThree {
+    margin: 20px 0;
+    padding: 10px 30px;
+    color: white;
+    background-color: #4b208c;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+}
+.btnThree:hover{
+    background-color: #6736b1;
+}
+
+.about-img-container {
+    position: relative;
+    margin-top: 40px;
+}
+
+.about-img {
+    border: 5px solid #4b208c;
+    border-radius: 300px;
+}
+
+.abimg2 {
+    position: absolute;
+    left: 300px;
+    top: 325px;
+}
+
+/* SECTION five  BLOG*/
+#five {
+    margin: 150px 0 50px 0;
+    height: 100vh;
+}
+
+.blog-heading {
+    margin: 50px 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.card-body h5 {
+    font-weight: bold;
+    color: black;
+}
+
+.card-body p {
+    font-size: 18px;
+}
+
+.bcards {
+    box-shadow: 2px 2px 15px -5px gray
+}
+
+/* SECTION SIX FORMS  */
+#six {
+    margin-bottom: 100px;
+}
+
+#formflex {
+    display: flex;
+    flex-direction: column;
+}
+
+#formflex input {
+    margin: 10px 0;
+    padding: 10px 30px;
+    font-size: 18px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) -1px 3px 7px 1px;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#formflex textarea {
+    margin: 10px 0;
+    padding: 40px 30px;
+    font-size: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) -1px 3px 7px 1px;
+    outline: none;
+    resize: none;
+}
+
+/* comment  */
+.text-comment {
+    margin-top: 20vh;
+}
+
+.text-comment p {
+    margin-left: 10vh;
+    font-family: monospace;
+    letter-spacing: 0px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.btnsend {
+    width: 30%;
+    margin: 50px 10px;
+    padding: 8px 30PX;
+    color: white;
+    background-color: #4b208c;
+    font-size: 16px;
+    border: none;
+}
+.btnsend:hover{
+    background-color: #6735b3;
+}
+
+/* FOOTER  */
+.footer {
+    background-color: #1b0042;
+    height: 50vh;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details h3 {
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.details span {
+    margin-right: 10px;
+}
+
+.socials {
+    margin-top: 50px;
+}
+
+.input-group input {
+    padding: 10px 10px;
+    outline: none;
+    border-radius: 0;
+}
+
+.btn {
+    background-color: #4b208c;
+    color: white;
+    border-radius: 0;
+    width: 35%;
+}
+
+.btn:hover {
+    background-color: #6736b1;
+    color: white;
+    outline: 0;
+}
+
+.align-foot {
+    display: flex;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-icon img {
+    padding: 0 1px;
+    height: 40px;
+}
+
+#cpy {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bcards {
+    margin: 0 50px;
 }
