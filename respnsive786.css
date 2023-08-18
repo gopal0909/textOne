@@ -1,35 +1,132 @@
-/* SCREEN BELOW PX */
-@media (max-width: 1002px) {
-    .one {
-        background-color: #d8cee7;
-        height: 200vh;
+@media (max-width:320px) {
+
+    /* SECTION ONE  */
+    .collap-nav {
+        width: 20%;
+        margin: 0px 100px;
     }
-    .navbar-nav li a {
-        width: 50%;
+
+    .navbar {
+        margin-bottom: 0px;
+    }
+
+    .one,
+    .footer {
+        width: 141%;
+    }
+
+    .heading {
+        margin: 50px 0 0 0;
         text-align: center;
-        float: right;
     }
-    #three {
-        margin: 200px 0;
-        height: 200vh;
-        background-color: rgb(240, 240, 255);
+
+    .heading h1 {
+        width: 100%;
+        text-align: center;
+        padding: 0 40px;
     }
-    .btnsend {
-        width: 30%;
+
+    .heading p {
+        text-align: justify;
     }
+
     .carousel {
-        margin-top: 100px;
-    }
-    .carousel {
-        margin-top: 100px;
+        margin: 100px auto;
         width: 80%;
-        margin-left: 100px;
+    }
+
+    #btnSg {
+        top: 250px;
+    }
+
+    .one {
+        margin-bottom: 50px;
+        height: 200vh;
+    }
+
+    /* SECTION TWO SERVICES */
+    #two,
+    #three,
+    #five,
+    #six,
+    #cpy {
+        width: 141%;
+    }
+
+    .btnReadMore {
+        margin: 0;
+    }
+
+    /* SECTION THREE ABOUT US */
+    #three {
+        margin: 100px 0;
+        height: 160vh;
     }
 
     .about-img-container {
-        margin-left: 100px;
+        margin-left: 0px;
     }
 
+    .about-us {
+        padding: 100px 0 0 0;
+        text-align: center;
+    }
+
+    .about-us p {
+        margin: 20px 30px;
+        text-align: justify;
+    }
+
+    .abimg1 {
+        width: 70%;
+        margin: auto;
+    }
+
+    .abimg2 {
+        left: 250px;
+        top: 240px;
+        width: 40%;
+    }
+
+    /* SECTION FIVE BLOG  */
+    #five {
+        margin-left: 0;
+        margin-top: 50PX;
+        height: 180vh;
+    }
+
+    .text-comment {
+        margin-top: 0;
+    }
+
+    .card-group .card {
+        margin-bottom: 50px;
+    }
+
+    /* SECTION SIX FORMS  */
+    #formflex input {
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    #formflex textarea {
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    .btnsend {
+        width: 40%;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .text-comment p {
+        width: 85%;
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    /* FOOTER  */
     .details {
         margin-top: 100px;
         display: flex;
@@ -46,69 +143,333 @@
         background-color: #1b0042;
         height: 70vh;
     }
-}
 
-@media (min-width:786px) and (max-width:1000px) {
-    .navbar-nav li a {
-        width: 50%;
-        text-align: center;
-        float: right;
-        margin: 5px 20px;
-        font-size: 20px;
-        border-radius: 25px;
-        padding: 7px 0;
+    .socials {
+        margin-top: 30px;
     }
 }
 
-@media (max-width:770px) {
-    #btnSg {
-        top: 300px;
+/* LARGE MOBILE SCREEN  */
+
+@media (min-width:322px) and (max-width:425px) {
+
+    /* ALL SECTIONS WIDTH  */
+    .one,
+    .footer {
+        width: 117%;
     }
 
-    .abimg1 {
-        width: 60%;
+    #two,
+    #three,
+    #five,
+    #six,
+    #cpy {
+        width: 117%;
     }
 
-    .abimg2 {
-        margin: -3rem;
-        width: 40%;
+    /* SECTON ONE HEADER  */
+    .one {
+        margin-bottom: 80px;
+        height: 230vh;
     }
 
-    .about-img-container {
-        margin-left: 70px;
+    .collap-nav {
+        width: 20%;
+        margin: 0px 100px;
     }
-}
 
-@media (max-width:576px) {
+    .navbar {
+        margin-bottom: 0px;
+    }
+
     .heading {
         margin: 50px 0 0 0;
         text-align: center;
     }
-    .heading h1{
-    width: 100%;
-    text-align: center;
-    padding: 0 40px;
-     }
 
-#five {
-    margin-left: 50px;
-    height: 170vh;
+    .heading h1 {
+        width: 100%;
+        text-align: center;
+        padding: 0 40px;
+    }
+
+    .heading p {
+        text-align: justify;
+        padding: 0 20px;
+    }
+
+    /* carousel  */
+    .carousel {
+        margin: 100px auto;
+        width: 85%;
+    }
+
+    #btnSg {
+        top: 300px;
+    }
+
+    /* SECTION TWO OUR SERVICES  */
+    .btnReadMore {
+        margin: 0 0 100px 0;
+    }
+
+    /* SECTION THREE ABOUT US */
+    #three {
+        margin: 0 0;
+        height: 180vh;
+        background-color: rgb(240, 240, 255);
+    }
+
+    .about-us {
+        padding: 150px 0 0 0;
+        text-align: center;
+    }
+
+    .abimg1 {
+        width: 70%;
+        margin: auto;
+    }
+
+    .abimg2 {
+        left: 250px;
+        top: 300px;
+        width: 40%;
+    }
+
+    /* SECTION FIVE BLOG  */
+    #five {
+        margin: 100px 0 50px 0;
+        height: 180vh;
+    }
+
+    .bcards {
+        margin: 50px 50px;
+    }
+
+    /* SECTION SIX FORMS  */
+    .blog-heading {
+        margin: 100px 0 50px 0;
+    }
+
+    #formflex input {
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    #formflex textarea {
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    .btnsend {
+        width: 40%;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .text-comment {
+        margin-top: 0;
+    }
+
+    .text-comment p {
+        width: 85%;
+        text-align: justify;
+        margin: 0 auto;
+    }
+
+    /* FOOTER  */
+    .details {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-icon {
+        margin: 30px 0;
+        text-align: center;
+    }
+
+    .footer {
+        background-color: #1b0042;
+        height: 70vh;
+    }
+
+    .socials {
+        margin-top: 30px;
+    }
 }
 
-.about-us {
-    padding: 70px 0 0 0;
-    text-align: center;
+@media(width:414px) {
+    #three {
+        height: 120vh;
+    }
+
+    #btnSg {
+        top: 280px;
+    }
+
+    .one {
+        height: 140vh;
+    }
+
+    #five {
+        height: 120vh;
+    }
 }
 
-.abimg1 {
-    width: 60%;
+@media(width:390px) {
+    .one {
+        height: 140vh;
+    }
+
+    #btnSg {
+        top: 270px;
+    }
+
+    #three {
+        height: 130vh;
+    }
+
+    #five {
+        height: 130vh;
+    }
+
+    .abimg2 {
+        top: 250px;
+    }
 }
 
-.abimg2 {
-    margin: -3rem;
-    width: 40%;
+@media(width:375px) {
+    .one {
+        height: 180vh;
+    }
+
+    #btnSg {
+        top: 250px;
+    }
+
+    #three {
+        height: 160vh;
+    }
+
+    #five {
+        height: 150vh;
+    }
+
+    .abimg2 {
+        left: 220px;
+        top: 280px;
+    }
 }
-.about-img-container {
-    margin-left: 70px;
-}
+
+/* IPAD SCREEN  */
+@media(width:768px) {
+
+    /* SECTION ONE  */
+    .one {
+        height: 200vh;
+    }
+
+    .heading h1 {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .heading p {
+        width: 80%;
+        margin: 50px auto;
+    }
+
+    .btnContact {
+        width: 50%;
+        margin: 20px auto;
+        display: block;
+    }
+
+    /* carousel  */
+    .carousel {
+        width: 70%;
+        margin: 50px auto;
+    }
+
+    #btnSg {
+        top: 350px;
+    }
+
+    /* SECTION THREE ABOUT US  */
+    #three {
+        height: 200vh;
+    }
+
+    .about-us {
+        padding: 100px 50px 0 50px;
+    }
+
+    .about-us h1 {
+        text-align: center;
+    }
+
+    .about-us p {
+        padding: 0 30px;
+        text-align: justify;
+    }
+
+    .btnThree {
+        display: block;
+        width: 40%;
+        margin: 50px auto;
+    }
+
+    .abimg2 {
+        left: 400px;
+        top: 300px;
+    }
+
+    /* SECTION SIX FORMS  */
+    #formflex input {
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    #formflex textarea {
+        margin: 10px auto;
+        width: 80%;
+    }
+
+    .btnsend {
+        width: 40%;
+        margin: 20px auto;
+        display: block;
+    }
+
+    .text-comment {
+        margin-top: 2vh;
+    }
+
+    .text-comment p {
+        width: 80%;
+        font-size: 12px;
+        text-align: justify;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* FOOTER SECTION  */
+    .details h3 {
+        font-size: 12px;
+    }
+
+    .details span {
+        margin-right: 5px;
+    }
+
+    .details h3 img {
+        width: 15px;
+    }
+
+    .social-icon {
+        margin: 20px auto;
+        width: 30%;
+    }
 }
